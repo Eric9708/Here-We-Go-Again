@@ -1,0 +1,53 @@
+Begin Object Class=/Script/Engine.StaticMesh Name="SuperGrid_Ramp"
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="HiResMeshDescription" Archetype="/Script/Engine.StaticMeshDescriptionBulkData'/Script/Engine.Default__StaticMesh:HiResMeshDescription'"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMesh:HiResMeshDescription.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData"
+   End Object
+   Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_11"
+   End Object
+   Begin Object Class=/Script/UnrealEd.FbxStaticMeshImportData Name="FbxStaticMeshImportData_19"
+   End Object
+   Begin Object Class=/Script/NavigationSystem.NavCollision Name="NavCollision_32"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_10"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMeshDescriptionBulkData:MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="HiResMeshDescription"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   Begin Object Name="AssetImportData"
+   End Object
+   Begin Object Name="BodySetup_11"
+      AggGeom=(ConvexElems=((VertexData=((X=100.000153,Y=99.500160,Z=-0.500000),(X=100.000153,Y=-0.500000,Z=-0.500000),(X=100.000000,Y=-0.500000,Z=0.250000),(X=100.000000,Y=99.249985,Z=99.999985),(X=100.000153,Y=100.000000,Z=100.000000),(X=100.000153,Y=100.000000,Z=-0.000161),(X=-0.500000,Y=99.500160,Z=-0.500000),(X=-0.500000,Y=100.000000,Z=-0.000160),(X=-0.500000,Y=100.000000,Z=100.000000),(X=-0.500000,Y=99.249985,Z=99.999985),(X=-0.500000,Y=-0.500000,Z=0.249992),(X=-0.500000,Y=-0.500000,Z=-0.500000),(X=-0.500000,Y=-0.250000,Z=-0.500000),(X=-0.500000,Y=-0.500000,Z=-0.250000),(X=100.000000,Y=-0.500000,Z=-0.249992),(X=100.000000,Y=-0.249992,Z=-0.500000)),IndexData=(1,0,4,11,6,1,7,5,6,1,4,2,1,6,0,11,9,6,7,6,9,3,9,2,10,11,2,11,1,2,10,9,11,10,2,9,3,4,9,3,2,4,5,0,6,5,4,0,7,4,5,8,7,9,8,4,7,8,9,4),ElemBox=(Min=(X=-0.500000,Y=-0.500000,Z=-0.500000),Max=(X=100.000153,Y=100.000000,Z=100.000000),IsValid=True))))
+      WalkableSlopeOverride=(WalkableSlopeBehavior=WalkableSlope_Increase,WalkableSlopeAngle=85.000000)
+      DefaultInstance=(ObjectType=ECC_WorldStatic,CollisionProfileName="BlockAll")
+   End Object
+   Begin Object Name="FbxStaticMeshImportData_19"
+   End Object
+   Begin Object Name="NavCollision_32"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_10"
+      OrbitYaw=41.500000
+   End Object
+   Begin Object Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   SourceModels(0)=(StaticMeshDescriptionBulkData="/Script/Engine.StaticMeshDescriptionBulkData'StaticMeshDescriptionBulkData_0'",BuildSettings=(bRecomputeNormals=False,bRecomputeTangents=False,bUseBackwardsCompatibleF16TruncUVs=True),ReductionSettings=(HardAngleThreshold=45.000000),ScreenSize=(Default=1.000000))
+   SectionInfoMap=(Map=((0, ())))
+   OriginalSectionInfoMap=(Map=((0, ())))
+   StaticMaterials(0)=(MaterialInterface="/Script/Engine.MaterialInstanceConstant'/Game/SuperGrid/StarterPack/Materials/Palette/Grids/M_SuperGrid_Walkable.M_SuperGrid_Walkable'",MaterialSlotName="M_SuperGrid_Walkable",ImportedMaterialSlotName="M_SuperGrid_Walkable",UVChannelData=(bInitialized=True,LocalUVDensities[0]=105.371094,LocalUVDensities[1]=319.874512))
+   LightmapUVDensity=319.874512
+   LightMapResolution=64
+   LightMapCoordinateIndex=1
+   AssetImportData="/Script/UnrealEd.FbxStaticMeshImportData'FbxStaticMeshImportData_19'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_10'"
+   EditorCameraPosition=(bIsSet=True,CamOrbitPoint=(X=-13.640867,Y=-3.413040,Z=50.771088),CamOrbitZoom=(X=-254.988190,Y=20.964096,Z=182.159210),CamOrbitRotation=(Pitch=-35.450127,Yaw=-4.700052,Roll=-0.000000))
+   ExtendedBounds=(Origin=(X=50.000076,Y=50.011784,Z=49.999340),BoxExtent=(X=50.000076,Y=50.000092,Z=50.000015),SphereRadius=86.602554)
+End Object
